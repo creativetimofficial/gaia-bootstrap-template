@@ -1,5 +1,7 @@
 # [Gaia Bootstrap Template](http://demos.creative-tim.com/gaia-bootstrap-template/freebie.html)
 
+![alt tag](http://s3.amazonaws.com/creativetim_bucket/products/45/original/opt_gbt_thumbnail.jpg)
+
 Gaia Bootstrap Template is an one page Bootstrap Template built with components from [Gaia Bootstrap Template PRO](http://demos.creative-tim.com/gaia-bootstrap-template-pro/index.html). Use it FREE for you or for your clients :-)
 
 It comes with 5 colors from the default Bootstrap Style Primary (gold), Info (blue), Success (green), Warning (orange), Danger (Red).
