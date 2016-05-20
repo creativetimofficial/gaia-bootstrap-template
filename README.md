@@ -1,4 +1,4 @@
-# [Gaia Bootstrap Template](http://www.creative-tim.com/product/gaia-bootstrap-template)
+# [Gaia Bootstrap Template](http://demos.creative-tim.com/gaia-bootstrap-template/freebie.html)
 
 Gaia Bootstrap Template is an one page Bootstrap Template.
 
