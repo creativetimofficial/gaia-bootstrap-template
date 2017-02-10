@@ -18,7 +18,7 @@ We are excited to share with you this template and we are eager to hear your fee
 ## Links:
 
 + [Live Preview](http://demos.creative-tim.com/gaia-bootstrap-template/freebie.html)
-+ [PRO Version](http://demos.creative-tim.com/gaia-bootstrap-template-pro/index.html)
++ [PRO Version](http://demos.creative-tim.com/gaia-bootstrap-template-pro/index.html) (from $29)
 
 ## Quick start
 
@@ -50,13 +50,18 @@ gaia-bootstrap-template/
 |   ├── sass (coming soon)
 |   └── img/
 ├── freebie.html
-└── Creative Tim License.pdf
 
 ```
 
 ### Version logs
 
-V1.0 - 14 May 2016 initial release
+V1.0.0 - 14 May 2016 initial release
+V1.0.1 - 10 Feb 2017 switched to MIT license.
+
+### License
+
+- Copyright 2017 Creative Tim (http://www.creative-tim.com)
+- Licensed under MIT (https://github.com/creativetimofficial/gaia-bootstrap-template/blob/master/LICENSE.md)
 
 ## Useful Links
 
