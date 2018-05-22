@@ -1,18 +1,3 @@
-/*!
-
- =========================================================
- * Gaia Bootstrap Template - v1.0.1
- =========================================================
- 
- * Product Page: https://www.creative-tim.com/product/gaia-bootstrap-template
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/gaia-bootstrap-template/blob/master/LICENSE.md)
- 
- =========================================================
- 
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
- */
-
 var transparent = true;
 
 var fixedTop = false;
@@ -305,3 +290,63 @@ var BrowserDetect = {
 };
 
 var better_browser = '<div class="container"><div class="better-browser row"><div class="col-md-2"></div><div class="col-md-8"><h3>We are sorry but it looks like your Browser doesn\'t support our website Features. In order to get the full experience please download a new version of your favourite browser.</h3></div><div class="col-md-2"></div><br><div class="col-md-4"><a href="https://www.mozilla.org/ro/firefox/new/" class="btn btn-warning">Mozilla</a><br></div><div class="col-md-4"><a href="https://www.google.com/chrome/browser/desktop/index.html" class="btn ">Chrome</a><br></div><div class="col-md-4"><a href="http://windows.microsoft.com/en-us/internet-explorer/ie-11-worldwide-languages" class="btn">Internet Explorer</a><br></div><br><br><h4>Thank you!</h4></div></div>';
+
+
+// for demo purpose
+
+$().ready(function(){
+    $('#twitter').sharrre({
+      share: {
+        twitter: true
+      },
+      enableHover: false,
+      enableTracking: true,
+      enableCounter: false,
+      buttons: { twitter: {via: 'CreativeTim'}},
+      click: function(api, options){
+        api.simulateClick();
+        api.openPopup('twitter');
+      },
+      template: '<i class="fa fa-twitter"></i> Twitter',
+      url: 'http://demos.creative-tim.com/gaia-bootstrap-template/freebie.html'
+    });
+
+    $('#facebook').sharrre({
+      share: {
+        facebook: true
+      },
+      enableHover: false,
+      enableTracking: true,
+      enableCounter: false,
+      click: function(api, options){
+        api.simulateClick();
+        api.openPopup('facebook');
+      },
+      template: '<i class="fa fa-facebook-square"></i> Facebook',
+      url: 'http://demos.creative-tim.com/gaia-bootstrap-template/freebie.html'
+    });
+
+    $('#google').sharrre({
+      share: {
+        googlePlus: true
+      },
+      enableCounter: false,
+      enableHover: false,
+      enableTracking: true,
+      click: function(api, options){
+        api.simulateClick();
+        api.openPopup('googlePlus');
+      },
+      template: '<i class="fa fa-google-plus"></i> Google',
+      url: 'http://demos.creative-tim.com/gaia-bootstrap-template/freebie.html'
+    });
+});
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-46172202-1', 'auto');
+ga('send', 'pageview');
