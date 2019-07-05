@@ -1,3 +1,17 @@
+/* =========================================================
+* Gaia Bootstrap Template - v1.0.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/gaia-bootstrap-template
+* Licensed under MIT (https://github.com/creativetimofficial/gaia-bootstrap-template/blob/master/LICENSE.md)
+* Copyright 2019 Creative Tim (http://www.creative-tim.com)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. */
+
 .tim-container{
     background: #FFF;
 }
@@ -19,7 +33,7 @@
 .tim-typo{
     padding-left: 25%;
     margin-bottom: 40px;
-    position: relative;   
+    position: relative;
 }
 .tim-typo .tim-note{
     bottom: 10px;
@@ -62,7 +76,7 @@
     display: block;
 }
 .navigation-example .img-src{
-    background-attachment: scroll; 
+    background-attachment: scroll;
 }
 
 .main{
@@ -103,7 +117,7 @@
     padding-top: 20px;
 }
 .subscribe-form .form-control{
-    
+
 }
 
 .space-100{
@@ -176,20 +190,20 @@
 .parallax{
   width:100%;
   height:570px;
- 
+
   display: block;
   background-attachment: fixed;
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center center;
-  
+
 }
 
 .logo-container .logo{
     overflow: hidden;
     border-radius: 50%;
     border: 1px solid #333333;
-    width: 50px; 
+    width: 50px;
     float: left;
 }
 
@@ -262,7 +276,7 @@
 .parallax .parallax-image{
     width: 100%;
     overflow: hidden;
-    position: absolute;  
+    position: absolute;
 }
 .parallax .parallax-image img{
     width: 100%;
@@ -371,7 +385,7 @@
     transition: all .2s;
 }
 .presentation{
-    
+
 }
 .presentation .section{
     padding: 100px 0;
@@ -434,7 +448,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #FFF; 
+	background-color: #FFF;
     width: 100%;
     cursor: pointer;
     box-shadow: 10px 4px 14px rgba(0, 0, 0, 0.12);
@@ -449,7 +463,7 @@
 }
 
 .presentation .card-container:hover .front{
-    top: -10px; 
+    top: -10px;
 }
 
 .presentation .card-component img{
@@ -482,7 +496,7 @@
 }
 .presentation h4{
     font-size: 18px;
-    line-height: 24px;  
+    line-height: 24px;
 }
 .presentation .info h4{
     font-size: 24px;
@@ -555,13 +569,13 @@
      -o-transform-style: preserve-3d;
         transform-style: preserve-3d;
 
-    margin-top: 20px;    
+    margin-top: 20px;
   position: relative;
    background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 20px;
-    color: #444444;    
+    color: #444444;
 }
-.rotating-card-container .rotate, 
+.rotating-card-container .rotate,
 .rotating-card .back{
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
@@ -582,7 +596,7 @@
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
-    
+
     position: absolute;
     top: 0;
     left: 0;
@@ -612,8 +626,8 @@
 .rotating-card .image{
     border-radius: 20px 20px 0 0;
 }
-.rotating-card-container, 
-.rotating-card .front, 
+.rotating-card-container,
+.rotating-card .front,
 .rotating-card .back {
   width: 100%;
   min-height: 500px;
@@ -623,7 +637,7 @@
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .rotating-card .front, .rotating-card .back{
-        -ms-backface-visibility: visible;    
+        -ms-backface-visibility: visible;
         backface-visibility: visible;
     }
     .rotating-car .back {
@@ -663,7 +677,7 @@
     bottom: 42px;
     right: -25px;
     color: #FFFFFF;
-    background-color: #ff9500;    
+    background-color: #ff9500;
 }
 
 .fixed-section{
@@ -690,7 +704,7 @@
 /* prettyprint */
 .presentation pre.prettyprint{
     background-color: transparent;
-    border: 0px !important; 
+    border: 0px !important;
     margin-bottom: 0;
     margin-top: 30px;
     text-align: left;
@@ -730,7 +744,7 @@
     .presentation .section-images .image img{
         width: 100%;
     }
-        
+
 }
 .presentation .card-text-adjust{
     padding-left: 40px;
@@ -761,7 +775,7 @@
 }
 
 /*      layer animation          */
-    
+
 .layers-container{
     display: block;
     margin-top: 50px;
@@ -891,7 +905,7 @@
     transition: all .2s;
     position: relative;
     z-index: 20003;
-    
+
 }
 .container-right-click .card-price#card-price-big{
     margin-top: 40px;
@@ -901,7 +915,7 @@
     transition: all .2s;
       position: relative;
     z-index: 20003;
-    
+
 }
 .animated {
   -webkit-animation-duration: 1s;
@@ -958,8 +972,8 @@
 	top: 300px !important;
 }
 
-.fixed-plugin .dropdown-menu > .active > a, 
-.fixed-plugin .dropdown-menu > .active > a:hover, 
+.fixed-plugin .dropdown-menu > .active > a,
+.fixed-plugin .dropdown-menu > .active > a:hover,
 .fixed-plugin .dropdown-menu > .active > a:focus{
     color: #777777;
     text-align: center;
@@ -972,7 +986,7 @@
     margin: 0 auto;
 }
 
-.fixed-plugin .active a, 
+.fixed-plugin .active a,
 .fixed-plugin a:hover{
     border-color: #00bbff;
 }
@@ -1047,7 +1061,7 @@
   font-weight: 600;
   text-transform: uppercase;
   padding: 0 15px;
-} 
+}
 
 .fixed-plugin .adjustments-line p{
     float: left;
@@ -1072,7 +1086,7 @@
       background-color: #FFF;
       border: 1px solid #e4e4e4;
       padding-left: 0;
-      padding-right: 0; 
+      padding-right: 0;
       opacity: 1;
       cursor: pointer;
 }
@@ -1081,7 +1095,7 @@
 .fixed-plugin .dropdown-menu > li > a.switch-trigger:focus{
     background-color: transparent;
 }
-.fixed-plugin .dropdown-menu > .active > a:not(.switch-trigger), 
+.fixed-plugin .dropdown-menu > .active > a:not(.switch-trigger),
 .fixed-plugin .dropdown-menu > .active > a:not(.switch-trigger){
     border-color: #00bbff;
     background-color: #FFFFFF;
@@ -1091,7 +1105,7 @@
     margin-top: auto;
 }
 
-.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus{
     opacity: 1;
 }
@@ -1283,21 +1297,21 @@
          transform: translateY(-50%);
          top: 27px;
          opacity: 0;
-         
+
          transform-origin: 0 0;
     }
     .dropdown.open .dropdown-menu{
          opacity: 1;
-         
+
          -webkit-transform: translateY(-50%);
          -moz-transform: translateY(-50%);
          -o-transform: translateY(-50%);
          -ms-transform: translateY(-50%);
          transform: translateY(-50%);
-         
+
          transform-origin: 0 0;
     }
-    
+
     .fixed-plugin .dropdown-menu:before,
     .fixed-plugin .dropdown-menu:after{
         content: "";
@@ -1308,7 +1322,7 @@
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50%);
-        
+
     }
     .fixed-plugin .dropdown-menu:before{
         border-bottom: 16px solid rgba(0, 0, 0, 0);
@@ -1316,14 +1330,14 @@
         border-top: 16px solid rgba(0,0,0,0);
         right: -16px;
     }
-    
+
     .fixed-plugin .dropdown-menu:after{
         border-bottom: 16px solid rgba(0, 0, 0, 0);
         border-left: 16px solid #FFFFFF;
         border-top: 16px solid rgba(0,0,0,0);
         right: -15px;
     }
-      
+
 }
 
 @media (max-width: 767px){
@@ -1342,7 +1356,7 @@
         height: 80px;
     }
     .dropdown .dropdown-menu{
-        top: -100px;   
+        top: -100px;
     }
 }
 
