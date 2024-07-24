@@ -29,6 +29,11 @@ Quick start options:
 - Clone the repo: `git clone https://github.com/timcreative/gaia-bootstrap-template.git`.
 
 
+## Deploy
+:rocket: You can deploy your own version of the template to Genezio with one click:
+
+[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/gaia-bootstrap-template&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
+
 ### What's included
 
 Within the download you'll find the following directories and files:
